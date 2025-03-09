@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
         Path filePath = Paths.get("src/main/java/data/input.txt");
 
-        // Create service instances
         FileReaderService fileReaderService = new FileReaderService();
         DiscountCalculationService discountCalculationService = new DiscountCalculationService();
         PrintingService printingService = new PrintingService();
