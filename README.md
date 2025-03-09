@@ -3,9 +3,6 @@
 - **Language**: Java
 - **Build Tool**: Maven
 - **Testing Framework**: JUnit 5
-- **Functionality**: 
-   - Calculates shipping discounts based on provider and package size.
-   - Handles special business rules, including a free third `L` size package from LP.
 - **Tests**: I have written tests to check for:
    - Valid inputs.
    - Invalid inputs (e.g., incorrect sizes, providers, and dates).
